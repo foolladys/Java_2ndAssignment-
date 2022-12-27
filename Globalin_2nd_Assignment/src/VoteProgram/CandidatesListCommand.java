@@ -17,6 +17,8 @@ public class CandidatesListCommand implements VoteCommand {
 		//forwarding될때까지 메모리에 살아있음을 반드시 기억해야한다.
 		request.setAttribute("candidates_list", cdtos);
 		
+		
+		
 	}
 
 }
